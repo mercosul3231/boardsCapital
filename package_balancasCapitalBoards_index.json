@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "Capital",
+      "maintainer": "Balanças Capital",
+      "websiteURL": "https://balancascapital.com.br/",
+      "email" : "contato@balancascapital.com.br",
+      "platforms":
+      [
+        {
+          "name": "Balanças Capital Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/chsev/boardsCapital/blob/main/balancasCapitalBoards-0.0.1.zip?raw=true",
+          "archiveFileName": "balancasCapitalBoards-0.0.1.zip",
+          "checksum": "SHA-256:F6A76C85A3C23BE7689C4AFBD026875FDF0F899117560E517C924110855A7A47",
+          "size": "1594207",
+          "boards": [
+            {
+              "name": "Capital BC-SAMD21G"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
