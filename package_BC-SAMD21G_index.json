@@ -3,13 +3,13 @@
   [
     {
       "name": "Capital",
-      "maintainer": "Balanças Capital",
+      "maintainer": "Balancas Capital",
       "websiteURL": "https://balancascapital.com.br/",
       "email" : "contato@balancascapital.com.br",
       "platforms":
       [
         {
-          "name": "Balanças Capital Boards",
+          "name": "Balancas Capital Boards",
           "architecture": "samd",
           "version": "1.6.1",
           "category": "Contributed",
