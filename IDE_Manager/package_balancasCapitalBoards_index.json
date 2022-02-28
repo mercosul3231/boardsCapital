@@ -1,19 +1,102 @@
 {
-  "packages":
-  [
+  "packages": [
     {
       "name": "Capital",
       "maintainer": "Balanças Capital",
       "websiteURL": "https://balancascapital.com.br/",
-      "email" : "contato@balancascapital.com.br",
-      "platforms":[
+      "email": "contato@balancascapital.com.br",
+      "platforms": [
+        {
+          "name": "Balanças Capital Boards",
+          "architecture": "samd",
+          "version": "1.8.13",
+          "category": "Contributed",
+          "url": "https://github.com/chsev/boardsCapital/blob/main/IDE_Manager/balancasCapitalBoards-1.8.13.zip?raw=true",
+          "archiveFileName": "balancasCapitalBoards-1.8.13.zip",
+          "checksum": "SHA-256:FAF03D3E5A195D14B6F0A0BA8DC2C2C466160975CB71BF2EE1DF617C9935FDBD",
+          "size": "1604990",
+          "boards": [
+            {
+              "name": "Capital BC-SAMD21G v1.04"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Balanças Capital Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/chsev/boardsCapital/blob/main/IDE_Manager/balancasCapitalBoards-1.0.0.zip?raw=true",
+          "archiveFileName": "balancasCapitalBoards-1.0.0.zip",
+          "checksum": "SHA-256:3916BC528F43BE9CBEFBDF9C8A16B8C794F55F6BAA0866123E6F502F7EF083FC",
+          "size": "1592077",
+          "boards": [
+            {
+              "name": "Capital BC-SAMD21G v1.03"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
         {
           "name": "Balanças Capital Boards",
           "architecture": "samd",
           "version": "0.0.2",
           "category": "Contributed",
           "url": "https://github.com/chsev/boardsCapital/blob/main/IDE_Manager/balancasCapitalBoards-0.0.2.zip?raw=true",
-          "archiveFileName": "balancasCapitalBoards-0.0.1.zip",
+          "archiveFileName": "balancasCapitalBoards-0.0.2.zip",
           "checksum": "SHA-256:9FD502D4B665D02D720B2EA2C1C1E45F022A02ACF38BDCA9563C8724BAD1ECDB",
           "size": "1555940",
           "boards": [
@@ -21,8 +104,7 @@
               "name": "Capital BC-SAMD21G"
             }
           ],
-          "toolsDependencies":
-          [
+          "toolsDependencies": [
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
@@ -64,8 +146,7 @@
               "name": "Capital BC-SAMD21G"
             }
           ],
-          "toolsDependencies":
-          [
+          "toolsDependencies": [
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
@@ -94,9 +175,7 @@
           ]
         }
       ],
-      "tools":
-      [
-      ]
+      "tools": []
     }
   ]
 }
