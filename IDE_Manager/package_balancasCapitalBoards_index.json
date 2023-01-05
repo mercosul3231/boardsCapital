@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://github.com/chsev/boardsCapital/blob/main/IDE_Manager/balancasCapitalBoards-1.8.13.zip?raw=true",
           "archiveFileName": "balancasCapitalBoards-1.8.13.zip",
-          "checksum": "SHA-256:FAF03D3E5A195D14B6F0A0BA8DC2C2C466160975CB71BF2EE1DF617C9935FDBD",
-          "size": "1604990",
+          "checksum": "SHA-256:0466e845e47282deafd567e3cc87206affd1907e09f2e7d87c675ef41bc56ea6",
+          "size": "1605042",
           "boards": [
             {
               "name": "Capital BC-SAMD21G v1.04"
